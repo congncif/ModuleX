@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'ModuleX'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of ModuleX.'
+  s.summary          = 'Base Protocols & classes to create an independent module'
+  s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+In an absolute control application, each module is an independent entity. ModuleX contains base definitions to create a new module like so. 
+The new module will be isolated with another module. They communicate together via Routers and were born by Builders in general app logic.
                        DESC
 
   s.homepage         = 'https://github.com/NGUYEN CHI CONG/ModuleX'
