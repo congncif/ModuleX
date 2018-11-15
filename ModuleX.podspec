@@ -23,12 +23,12 @@ In an absolute control application, each module is an independent entity. Module
 The new module will be isolated with another module. They communicate together via Routers and were born by Builders in general app logic.
                        DESC
 
-  s.homepage         = 'https://github.com/NGUYEN CHI CONG/ModuleX'
+  s.homepage         = 'https://github.com/congncif/ModuleX'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NGUYEN CHI CONG' => 'congnc.if@gmail.com' }
   s.source           = { :git => 'https://github.com/NGUYEN CHI CONG/ModuleX.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/congncif'
 
   s.ios.deployment_target = '8.0'
 
