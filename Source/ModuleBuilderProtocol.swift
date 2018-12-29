@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol ModuleBuilder {
+public protocol ModuleBuilderProtocol {
     func build() -> ModuleInterface
 }
