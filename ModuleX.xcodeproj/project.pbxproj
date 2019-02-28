@@ -15,7 +15,7 @@
 		20AB6C7C219D570D001A7FD2 /* ModuleBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C73219D570D001A7FD2 /* ModuleBuilderProtocol.swift */; };
 		20AB6C7D219D570D001A7FD2 /* AnimatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C74219D570D001A7FD2 /* AnimatorProtocol.swift */; };
 		20AB6C7E219D570D001A7FD2 /* ModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C75219D570D001A7FD2 /* ModuleInterface.swift */; };
-		20AB6C7F219D570D001A7FD2 /* RootRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C76219D570D001A7FD2 /* RootRouterProtocol.swift */; };
+		20AB6C7F219D570D001A7FD2 /* LaunchRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C76219D570D001A7FD2 /* LaunchRouterProtocol.swift */; };
 		20AB6C80219D570D001A7FD2 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C77219D570D001A7FD2 /* PushTransition.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		20AB6C73219D570D001A7FD2 /* ModuleBuilderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleBuilderProtocol.swift; sourceTree = "<group>"; };
 		20AB6C74219D570D001A7FD2 /* AnimatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatorProtocol.swift; sourceTree = "<group>"; };
 		20AB6C75219D570D001A7FD2 /* ModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleInterface.swift; sourceTree = "<group>"; };
-		20AB6C76219D570D001A7FD2 /* RootRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouterProtocol.swift; sourceTree = "<group>"; };
+		20AB6C76219D570D001A7FD2 /* LaunchRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchRouterProtocol.swift; sourceTree = "<group>"; };
 		20AB6C77219D570D001A7FD2 /* PushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
 		F93BA28B1BC4D085D381EE3D /* Pods_ModuleX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,7 +83,7 @@
 				20AB6C73219D570D001A7FD2 /* ModuleBuilderProtocol.swift */,
 				20AB6C74219D570D001A7FD2 /* AnimatorProtocol.swift */,
 				20AB6C75219D570D001A7FD2 /* ModuleInterface.swift */,
-				20AB6C76219D570D001A7FD2 /* RootRouterProtocol.swift */,
+				20AB6C76219D570D001A7FD2 /* LaunchRouterProtocol.swift */,
 				20AB6C77219D570D001A7FD2 /* PushTransition.swift */,
 			);
 			path = Source;
@@ -177,7 +177,7 @@
 			files = (
 				20AB6C79219D570D001A7FD2 /* ModalTransition.swift in Sources */,
 				20AB6C7A219D570D001A7FD2 /* Router.swift in Sources */,
-				20AB6C7F219D570D001A7FD2 /* RootRouterProtocol.swift in Sources */,
+				20AB6C7F219D570D001A7FD2 /* LaunchRouterProtocol.swift in Sources */,
 				20AB6C7E219D570D001A7FD2 /* ModuleInterface.swift in Sources */,
 				20AB6C7D219D570D001A7FD2 /* AnimatorProtocol.swift in Sources */,
 				20AB6C7B219D570D001A7FD2 /* RouterProtocol.swift in Sources */,
