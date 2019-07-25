@@ -13,7 +13,9 @@ open class Router: RouterProtocol, Closable {
     public weak var sourceModule: ModuleInterface?
     public private(set) var openTransition: TransitionProtocol?
 
-    public init() {}
+    public init(sourceModule: ModuleInterface?) {
+        self.sourceModule = sourceModule
+    }
 
     open func open(_ desinationModule: ModuleInterface, transition: TransitionProtocol) {
         transition.sourceViewController = self.sourceModule?.viewController
@@ -22,7 +24,7 @@ open class Router: RouterProtocol, Closable {
     }
 
     open func close(transition: TransitionProtocol? = nil) {
-        let closeTransition = transition ?? openTransition
+        let closeTransition = transition ?? self.openTransition
         guard let activeTransition = closeTransition else {
             print("Router: No transition")
             return

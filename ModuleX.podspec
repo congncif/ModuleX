@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ModuleX'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Base Protocols & classes to create an independent module'
-  s.swift_version    = '4.2'
+  s.swift_versions    = ['4.2', '5.0', '5.1']
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
