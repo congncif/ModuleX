@@ -16,6 +16,10 @@ A mobile iOS app architechture which keeps clean design & can symbiosis with `UI
 * [IDMFoundation](https://github.com/congncif/IDMFoundation "IDMFoundation")
 * [ViewStateCore](https://github.com/congncif/ViewStateCore "ViewStateCore")
 
+## Example
+
+See more at https://github.com/congncif/IDMFoundation
+
 ## Installation
 
 ModuleX is available through [CocoaPods](https://cocoapods.org). To install
