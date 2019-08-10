@@ -1,6 +1,6 @@
 # ModuleX
 
-A mobile iOS app architechture which keeps clean design & can symbiosis with `UIStoryboard Segue`.
+A mobile iOS app architechture which follows clean design & can symbiosis with `UIStoryboard Segue`.
 
 [![Version](https://img.shields.io/cocoapods/v/ModuleX.svg?style=flat)](https://cocoapods.org/pods/ModuleX)
 [![License](https://img.shields.io/cocoapods/l/ModuleX.svg?style=flat)](https://cocoapods.org/pods/ModuleX)
@@ -18,15 +18,19 @@ A mobile iOS app architechture which keeps clean design & can symbiosis with `UI
 
 ## Example
 
-See more at https://github.com/congncif/IDMFoundation
+* https://github.com/congncif/IDMFoundation
+* https://github.com/congncif/IDMSample
 
 ## Installation
 
-ModuleX is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+### Cocoapods
 ```ruby
 pod 'ModuleX'
+```
+
+### Carthage
+```
+github "congncif/ModuleX"
 ```
 
 ## Author
