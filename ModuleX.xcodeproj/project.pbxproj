@@ -17,6 +17,7 @@
 		20AB6C7E219D570D001A7FD2 /* ModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C75219D570D001A7FD2 /* ModuleInterface.swift */; };
 		20AB6C7F219D570D001A7FD2 /* LaunchRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C76219D570D001A7FD2 /* LaunchRouterProtocol.swift */; };
 		20AB6C80219D570D001A7FD2 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB6C77219D570D001A7FD2 /* PushTransition.swift */; };
+		27F45C692311A1460014FC66 /* UIViewController+Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F45C682311A1460014FC66 /* UIViewController+Module.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		20AB6C75219D570D001A7FD2 /* ModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleInterface.swift; sourceTree = "<group>"; };
 		20AB6C76219D570D001A7FD2 /* LaunchRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchRouterProtocol.swift; sourceTree = "<group>"; };
 		20AB6C77219D570D001A7FD2 /* PushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		27F45C682311A1460014FC66 /* UIViewController+Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Module.swift"; sourceTree = "<group>"; };
 		F93BA28B1BC4D085D381EE3D /* Pods_ModuleX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				20AB6C75219D570D001A7FD2 /* ModuleInterface.swift */,
 				20AB6C76219D570D001A7FD2 /* LaunchRouterProtocol.swift */,
 				20AB6C77219D570D001A7FD2 /* PushTransition.swift */,
+				27F45C682311A1460014FC66 /* UIViewController+Module.swift */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -178,6 +181,7 @@
 			files = (
 				20AB6C79219D570D001A7FD2 /* ModalTransition.swift in Sources */,
 				20AB6C7A219D570D001A7FD2 /* Router.swift in Sources */,
+				27F45C692311A1460014FC66 /* UIViewController+Module.swift in Sources */,
 				20AB6C7F219D570D001A7FD2 /* LaunchRouterProtocol.swift in Sources */,
 				20AB6C7E219D570D001A7FD2 /* ModuleInterface.swift in Sources */,
 				20AB6C7D219D570D001A7FD2 /* AnimatorProtocol.swift in Sources */,
