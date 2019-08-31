@@ -16,6 +16,8 @@ open class Router: RouterProtocol, Closable {
     public init(sourceModule: ModuleInterface?) {
         self.defaultSourceModule = sourceModule
     }
+    
+    public init() {}
 
     open func open(_ desinationModule: ModuleInterface, transition: TransitionProtocol) {
         transition.sourceViewController = self.defaultSourceModule?.userInterface
