@@ -14,6 +14,10 @@ open class Router: RouterProtocol, Closable {
 
     public private(set) var openTransition: TransitionProtocol?
 
+    public init(defaultSourceModule: ModuleInterface) {
+        self._defaultSourceModule = defaultSourceModule
+    }
+    
     public init() {}
 
     open func connectSourceModule(_ sourceModule: ModuleInterface) {
