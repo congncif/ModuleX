@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ModuleX'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'Base Protocols & classes to create an independent module'
   s.swift_versions    = ['4.2', '5.0', '5.1']
 
