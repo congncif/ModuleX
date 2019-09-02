@@ -17,16 +17,17 @@ open class Router: RouterProtocol, Closable {
     public init(defaultSourceModule: ModuleInterface) {
         self._defaultSourceModule = defaultSourceModule
     }
-    
+
     public init() {}
 
     open func connectSourceModule(_ sourceModule: ModuleInterface) {
         self._defaultSourceModule = sourceModule
     }
 
-    private var connectedSource: ModuleInterface {
+    private var connectedSource: ModuleInterface? {
         guard let source = _defaultSourceModule else {
-            preconditionFailure("💥💥💥 Source module is not set or disconnected before using.")
+            assertionFailure("💥💥💥 Source module was not set or disconnected before using.")
+            return nil
         }
         return source
     }
@@ -36,7 +37,7 @@ open class Router: RouterProtocol, Closable {
     }
 
     open func open(_ desinationModule: ModuleInterface, transition: TransitionProtocol) {
-        transition.sourceViewController = self.connectedSource.userInterface
+        transition.sourceViewController = self.connectedSource?.userInterface
         self.openTransition = transition
         transition.open(desinationModule.userInterface)
     }
@@ -47,6 +48,9 @@ open class Router: RouterProtocol, Closable {
             assertionFailure("Router: No transition")
             return
         }
-        activeTransition.close(self.connectedSource.userInterface)
+        guard let viewController = self.connectedSource?.userInterface else {
+            return
+        }
+        activeTransition.close(viewController)
     }
 }
